@@ -1,0 +1,61 @@
+@charset "utf-8";
+h1 {
+	text-align: center;
+	font-family: eater;
+	font-style: normal;
+	font-weight: 400;
+	margin-top: 25px;
+	color: #194A1A;
+	font-size: 4em;
+}
+#buttons {
+
+}
+#descriptions {
+	font-family: eater;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+	background-color: #007A89;
+	font-size: 20px;
+	color: white;
+}
+#orderWt {
+	background-color: #C3C8C5;
+}
+#scaleWt {
+	background-color: #C1ABD1;
+}
+
+
+#two {
+	background-color: #C3C8C5;
+}
+#stats {
+	font-family: eater;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 4em;
+	text-align: center;
+
+}
+#winsLoses {
+	font-family: eater;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 19px;
+}
+#crystals {
+
+}
+.crysalis {
+	border-radius: 50px;
+
+}
+#bbGraphic {
+	border-radius: 125px;
+
+}
+#info {
+	background-image: url(url);
+}

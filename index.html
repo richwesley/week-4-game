@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crystal Collector</title>
+    <!-- Bootstrap -->
+	<link href="assets/css/bootstrap.css"  rel="stylesheet">
+	<!-- Local Stylesheet -->
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+	
+  <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+  <script>var __adobewebfontsappname__="dreamweaver"</script>
+  <script src="http://use.edgefonts.net/eater:n4:default.js" type="text/javascript"></script>
+</head>
+ 
+<body>
+	<div class="container">
+     
+		<div class="row">
+			<div class="col-md-8">
+				<h1>Crystal (meth) Collector</h1>
+			</div>
+	    	<div class="col-md-4">
+   	    		<img src="assets/images/Breaking_Bad.png" width="249" height="206" alt="" id="bbGraphic"/> 
+   	    	</div>
+		</div>
+      
+		<div class="row" id="buttons">
+			<div class="col-md-6">
+       	  		<button type="button" class="btn btn-info" onClick="openWin()">Instructions</button>
+       	  		<button type="button" class="btn btn-primary" onClick="startGame()">Start Game</button>
+			</div>
+		</div>
+    
+		<div class="row">
+	      	<div class="col-md-3">
+      	  		<img src="assets/images/crystal meth 1.jpg" width="229" height="194" alt="" class ="crysalis" id="c1"/> 
+      	  	</div>
+	      	<div class="col-md-3">
+      	  		<img src="assets/images/crystal meth 2.jpg" width="229" height="194" alt="" class 		="crysalis" id="c2"/> 
+      	 	 </div>
+	      	<div class="col-md-3">
+      	  		<img src="assets/images/crystal meth 3.jpg" width="229" height="194" alt="" class ="crysalis" id="c3"/> 
+      	  	</div>
+	     	 <div class="col-md-3">
+      	  		<img src="assets/images/crystal meth 4.jpg" width="229" height="194" alt="" class ="crysalis" id="c4"/> 
+      	  	</div>
+	   </div>
+      
+      <div class="row" id="descriptions">
+          <div class="col-md-4">
+          	<p>Scale Weight</p>
+          </div>
+          <div class="col-md-4">
+          	<p id=>Order Weight</p>
+          </div>
+          <div class="col-md-4">
+          	<p>Stats</p>
+          </div>
+      </div>
+      <div class="row" id="stats">
+			<div class="col-md-4" id="scaleWt">0</div>
+	  		<div class="col-md-4" id="orderWt">0</div>
+  		<div class="col-md-4" id="winsLoses">
+	  			<div class="row">
+					<div class="col-md-6">Wins</div>
+					<div class="col-md-6" id="wins">0</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">Losses</div>
+					<div class="col-md-6" id="losses">0</div>
+		  		</div>
+	   </div>	
+	</div>
+  </div>
+  	
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="assets/js/jquery-1.11.3.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="assets/js/bootstrap.js"></script>
+	<!-- js file containing main code -->
+  <script src="assets/js/game.js"></script>
+  </body>
+</html>
