@@ -26,7 +26,7 @@ function startGame() {
 	playCounter = 0;
 	$('#scaleWt').text(playCounter);
 	
-	randomVar = Math.floor(Math.random()*51)+9;
+	randomVar = Math.floor(Math.random()*111)+9;
 	$('#orderWt').html(randomVar);
 	console.log("init Rndvar " + playCounter + " " + randomVar);
 	
@@ -47,6 +47,7 @@ function startGame() {
 		console.log("c1 " + aBatch + " " +bBatch + " " + cBatch + " " + dBatch);
 		console.log(playCounter + " " + randomVar);
 		checkStatus();
+        debugger;
 		});
 	
 	$('#c2').on('click', function () {
