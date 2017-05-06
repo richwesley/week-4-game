@@ -42,7 +42,8 @@ h1 {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 19px;
-	color: white;
+	background-color: #D88082;
+	padding-bottom: 0px;
 }
 #crystals {
 
@@ -60,6 +61,7 @@ h1 {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	font-size: medium;
 	color: white;
+	background-color: black;
 }
 #wrapper {
 	background-image: url(../images/walt.jpg);

@@ -11,7 +11,7 @@ var playCounter = 0;
 
 //$(document).ready(function() {
 function showInst() {
-    $('#info').text("Walt and Jesse have commissioned you to sell off some excess inventory.  Jesse has come up with a new way to unload the goods.  Rather than packaging it in predetermined quantities (ie a quater bag or eight ball), Jessie has decided to 'take orders' and  let the customer buy whatever quantity they want.  When you click the 'Get Order' button you will need to package it by choosing the correct amount of each crystal variety so that it weighs exactly the order quanity.  But, be carefull if you go over you will anger Walt and lose the order.  Good luck.");
+    $('#info').text("Walt and Jesse have commissioned you to sell off some excess inventory.  Jesse has come up with a new way to unload the goods.  Rather than packaging it in predetermined quantities (ie a quater bag or eight ball), Jessie has decided to 'take orders' and  let the customer buy whatever quantity they want.  When you click the 'Get Order' button you will need to package it by choosing the correct amount of each crystal variety so that it weighs exactly the order quanity.  But, be carefull if you go over you will lose the order.  Good luck.");
 }
 
 function newGame () {
@@ -29,6 +29,8 @@ function startGame() {
 	randomVar = Math.floor(Math.random()*51)+9;
 	$('#orderWt').html(randomVar);
 	console.log("init Rndvar " + playCounter + " " + randomVar);
+	
+	$('#info').remove();
 
 	// set the random value for each crystal
 		aBatch = Math.floor(Math.random() *9)+4;
