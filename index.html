@@ -19,18 +19,21 @@
 	<div class="container">
      
 		<div class="row">
-			<div class="col-md-8">
+			
+	    	<div class="col-md-4">
+   	    		<img src="assets/images/Breaking_Bad.png" width="249" height="206" alt="" id="bbGraphic"/> 	    		 
+   	    	</div>
+   	    	<div class="col-md-8">
 				<h1>Crystal (meth) Collector</h1>
 			</div>
-	    	<div class="col-md-4">
-   	    		<img src="assets/images/Breaking_Bad.png" width="249" height="206" alt="" id="bbGraphic"/> 
-   	    	</div>
 		</div>
       
 		<div class="row" id="buttons">
 			<div class="col-md-6">
-       	  		<button type="button" class="btn btn-info" onClick="openWin()">Instructions</button>
-       	  		<button type="button" class="btn btn-primary" onClick="startGame()">Start Game</button>
+       	  		<button type="button" class="btn btn-info" onClick="showInst()">Instructions</button>
+       	  		
+       	  		<button type="button" class="btn btn-primary" 
+       	  		onClick="newGame()">Start Game</button>
 			</div>
 		</div>
     
@@ -60,6 +63,7 @@
           	<p>Stats</p>
           </div>
       </div>
+      
       <div class="row" id="stats">
 			<div class="col-md-4" id="scaleWt">0</div>
 	  		<div class="col-md-4" id="orderWt">0</div>
@@ -74,7 +78,15 @@
 		  		</div>
 	   </div>	
 	</div>
+	
+	<div class="row">
+		<div class="col-md-5">
+			<h2 id="info"></h2>
+		</div>		
+	</div>
   </div>
+	
+  
   	
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 	<script src="assets/js/jquery-1.11.3.min.js"></script>

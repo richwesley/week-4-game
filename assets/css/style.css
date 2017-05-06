@@ -1,12 +1,10 @@
 @charset "utf-8";
 h1 {
-	text-align: center;
+	text-align: right;
 	font-family: eater;
 	font-style: normal;
 	font-weight: 400;
-	margin-top: 25px;
 	color: #194A1A;
-	font-size: 4em;
 }
 #buttons {
 
@@ -44,6 +42,7 @@ h1 {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 19px;
+	color: white;
 }
 #crystals {
 
@@ -58,4 +57,12 @@ h1 {
 }
 #info {
 	background-image: url(url);
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: medium;
+	color: white;
+}
+#wrapper {
+	background-image: url(../images/walt.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
